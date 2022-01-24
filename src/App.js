@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import Welcome from './components/Welcome';
+import Nav from './components/Nav';
 
 function App() {
   return (
@@ -20,7 +21,10 @@ function App() {
     //     </a>
     //   </header>
     // </div>
-    <Welcome />
+    <div className="page">
+      <Nav />
+      <Welcome />
+    </div>
   );
 }
 

@@ -28,6 +28,30 @@
   color: #61dafb;
 }
 
+.sidebar {
+  height: 100%;
+  width: 250px;
+  position: fixed;
+  background-color: #282c34;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  padding-top: 60px;
+  overflow-x: hidden;
+}
+
+.sidebar li {
+  list-style-type: none;
+}
+
+.main {
+  width: 100% !important;
+  display: flex;
+  flex-direction: column;
+  padding-left: 20%;
+  align-content: center;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
