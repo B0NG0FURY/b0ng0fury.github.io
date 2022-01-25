@@ -4,7 +4,7 @@ class Nav extends Component {
     render() {
         return(
             <nav class="sidebar">
-                <ul>
+                <ul class="sidebar-items">
                     <li><a>About</a></li>
                     <li><a>Portfolio</a></li>
                     <li><a>C.V.</a></li>

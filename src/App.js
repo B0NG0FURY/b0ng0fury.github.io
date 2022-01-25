@@ -23,7 +23,9 @@ function App() {
     // </div>
     <div className="page">
       <Nav />
-      <Welcome />
+      <section className="main">
+        <Welcome />
+      </section>
     </div>
   );
 }
