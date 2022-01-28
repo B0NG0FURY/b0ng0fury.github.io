@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import Welcome from './components/Welcome';
 import Nav from './components/Nav';
+import About from './components/About';
 
 function App() {
   return (
@@ -24,7 +25,8 @@ function App() {
     <div className="page">
       <Nav />
       <section className="main">
-        <Welcome />
+        {/* <Welcome /> */}
+        <About />
       </section>
     </div>
   );

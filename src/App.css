@@ -89,6 +89,18 @@ body {
   margin: -10px 5px 0px 4px;
 }
 
+.about-card {
+  padding-left: 15%;
+  margin-top: 80px;
+  max-height: 30rem;
+  overflow-y: auto;
+}
+
+#about-title {
+  font-size: 30px;
+  font-weight: bolder;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
