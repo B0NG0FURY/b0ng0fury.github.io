@@ -1,10 +1,12 @@
 import logo from './logo.svg';
+import React, { useState } from 'react';
 import './App.css';
 import Welcome from './components/Welcome';
 import Nav from './components/Nav';
 import About from './components/About';
 
 function App() {
+  const [active, setActive] = useState("Welcome");
   return (
     // <div className="App">
     //   <header className="App-header">
@@ -23,10 +25,10 @@ function App() {
     //   </header>
     // </div>
     <div className="page">
-      <Nav />
+      <Nav setActive={setActive} />
       <section className="main">
-        {/* <Welcome /> */}
-        <About />
+        {active === "Welcome" && <Welcome />}
+        {active === "About" && <About />}
       </section>
     </div>
   );
