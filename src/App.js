@@ -25,7 +25,7 @@ function App() {
     //   </header>
     // </div>
     <div className="page">
-      <Nav setActive={setActive} />
+      <Nav setActive={setActive} active={active} />
       <section className="main">
         {active === "Welcome" && <Welcome />}
         {active === "About" && <About />}

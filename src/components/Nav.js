@@ -6,7 +6,8 @@ class Nav extends Component {
             <nav className="sidebar">
                 <ul className="sidebar-items">
                     <li>
-                        <button 
+                        <button
+                            style={this.props.active === "About" ? {textDecoration: 'underline'} : null}
                             className="nav-btn" 
                             onClick={() => this.props.setActive("About")}
                         >
@@ -14,7 +15,8 @@ class Nav extends Component {
                         </button>
                     </li>
                     <li>
-                        <button 
+                        <button
+                            style={this.props.active === "Portfolio" ? {textDecoration: 'underline'} : null} 
                             className="nav-btn" 
                             onClick={() => this.props.setActive("Portfolio")}
                         >
@@ -22,7 +24,8 @@ class Nav extends Component {
                         </button>
                     </li>
                     <li>
-                        <button 
+                        <button
+                            style={this.props.active === "CV" ? {textDecoration: 'underline'} : null}
                             className="nav-btn" 
                             onClick={() => this.props.setActive("CV")}
                         >
