@@ -1,9 +1,10 @@
 import logo from './logo.svg';
 import React, { useState } from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import Welcome from './components/Welcome';
 import Nav from './components/Nav';
-import About from './components/About';
+import AboutContainer from './containers/AboutContainer';
 
 function App() {
   const [active, setActive] = useState("Welcome");
@@ -28,7 +29,7 @@ function App() {
       <Nav setActive={setActive} active={active} />
       <section className="main">
         {active === "Welcome" && <Welcome />}
-        {active === "About" && <About />}
+        {active === "About" && <AboutContainer />}
       </section>
     </div>
   );

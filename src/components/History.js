@@ -1,6 +1,6 @@
 import Card from 'react-bootstrap/Card';
 
-export default function About() {
+export default function History() {
     return (
         <Card style={{color: 'whitesmoke', width: '40rem'}} className="about-card">
         <Card.Body>
