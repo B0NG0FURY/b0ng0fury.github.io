@@ -8,11 +8,12 @@ class AboutComponent extends Component {
     render() {
         return(
             <section>
+                <h2 className="info-header">Some Stuff About Me</h2>
                 <Tabs defaultActiveKey="history" className="mb-3 jt-section">
                     <Tab eventKey="history" title="History">
                         <History />
                     </Tab>
-                    <Tab eventKey="likes" title="Likes">
+                    <Tab eventKey="interests" title="Interests">
 
                     </Tab>
                 </Tabs>

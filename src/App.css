@@ -89,8 +89,13 @@ body {
   margin: -10px 5px 0px 4px;
 }
 
+.info-header {
+  color: whitesmoke;
+  margin: 50px 0px 0px 160px;
+}
+
 .jt-section {
-  margin: 40px 0px 0px 70px;
+  margin: 40px 0px 0px 160px;
   width: 40rem;
 }
 
