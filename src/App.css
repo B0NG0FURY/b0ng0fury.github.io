@@ -95,13 +95,12 @@ body {
 }
 
 .jt-section {
-  margin: 40px 0px 0px 160px;
-  /* width: 40rem; */
+  margin: 10px 0px 0px 160px;
   width: 650px;
 }
 
 .about-card {
-  max-height: 400px;
+  max-height: 440px;
   max-width: 650px;
   overflow-y: auto;
   background-color: #282c34;
@@ -113,18 +112,18 @@ body {
 }
 
 .interest-slides {
-  margin-top: 100px;
-  max-height: 350px;
+  margin-top: 20px;
+  max-height: 450px;
 }
 
-.interest-slides img {
+/* .carousel-img {
   width: 200px;
   height: 200px;
-}
-
-/* .carousel-inner img {
-  margin: auto;
 } */
+
+.carousel-inner > .carousel-item > img {
+  margin: 0 auto;
+}
 
 @keyframes App-logo-spin {
   from {
