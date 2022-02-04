@@ -91,18 +91,18 @@ body {
 
 .info-header {
   color: whitesmoke;
-  margin: 50px 0px 0px 160px;
+  margin: 0px 0px 20px 160px;
 }
 
 .jt-section {
   margin: 40px 0px 0px 160px;
-  width: 40rem;
+  /* width: 40rem; */
+  width: 650px;
 }
 
 .about-card {
-  padding-left: 15%;
-  margin-top: 30px;
-  max-height: 30rem;
+  max-height: 400px;
+  max-width: 650px;
   overflow-y: auto;
   background-color: #282c34;
 }
@@ -111,6 +111,20 @@ body {
   font-size: 30px;
   font-weight: bolder;
 }
+
+.interest-slides {
+  margin-top: 100px;
+  max-height: 350px;
+}
+
+.interest-slides img {
+  width: 200px;
+  height: 200px;
+}
+
+/* .carousel-inner img {
+  margin: auto;
+} */
 
 @keyframes App-logo-spin {
   from {
