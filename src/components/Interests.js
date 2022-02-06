@@ -7,35 +7,45 @@ export default function Interests() {
                 <img className="d-block w-100" alt="Music" src="http://placehold.it/600x400"/>
                 <Carousel.Caption>
                     <h5>Music</h5>
-                    <p>Text goes here...</p>
+                    <p>
+                        I love listening to music and have spent 14 years collecting vinyl. Yes, I have a problem.
+                    </p>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
                 <img className="d-block w-100" alt="Movies" src="http://placehold.it/600x400"/>
                 <Carousel.Caption>
                     <h5>Movies</h5>
-                    <p>Text goes here...</p>
+                    <p>
+                        I enjoy watching movies new and old. I have amassed quite the collection over the years. Again, I have a problem.
+                    </p>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
                 <img className="d-block w-100" alt="Onewheel" src="http://placehold.it/600x400"/>
                 <Carousel.Caption>
                     <h5>Onewheel</h5>
-                    <p>Text goes here...</p>
+                    <p>
+                        I started riding a Onewheel as a way to get outside and move around town without a car. It's fun and a great way to clear my head and enjoy the outdoors.
+                    </p>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
                 <img className="d-block w-100" alt="Travel" src="http://placehold.it/600x400"/>
                 <Carousel.Caption>
                     <h5>Travel</h5>
-                    <p>Text goes here...</p>
+                    <p>
+                        Flying or driving, I love getting away to new places.
+                    </p>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
                 <img className="d-block w-100" alt="Video Games" src="http://placehold.it/600x400"/>
                 <Carousel.Caption>
                     <h5>Video Games</h5>
-                    <p>Text goes here...</p>
+                    <p>
+                        I've been an avid gamer since grade school. Some things never change!
+                    </p>
                 </Carousel.Caption>
             </Carousel.Item>
         </Carousel>
