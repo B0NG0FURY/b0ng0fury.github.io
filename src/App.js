@@ -5,6 +5,7 @@ import './App.css';
 import Welcome from './components/Welcome';
 import Nav from './components/Nav';
 import AboutContainer from './containers/AboutContainer';
+import Portfolio from './components/Portfolio';
 
 function App() {
   const [active, setActive] = useState("Welcome");
@@ -30,6 +31,7 @@ function App() {
       <section className="main">
         {active === "Welcome" && <Welcome />}
         {active === "About" && <AboutContainer />}
+        {active === "Portfolio" && <Portfolio />}
       </section>
     </div>
   );
