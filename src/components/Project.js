@@ -7,7 +7,8 @@ export default function Project(props) {
                 <Card>
                     <Card.Header>{props.project.name}</Card.Header>
                     <Card.Img variant="top" src={props.project.img}/>
-                    <Accordion.Collapse>
+                    <Accordion.Header>Info</Accordion.Header>
+                    <Accordion.Body>
                         <Card.Body>
                             <Card.Text>
                                 <section>
@@ -17,8 +18,7 @@ export default function Project(props) {
                                 </section>
                             </Card.Text>
                         </Card.Body>
-                    </Accordion.Collapse>
-                    <Accordion.Button>Info</Accordion.Button>
+                    </Accordion.Body>
                 </Card>
             </Accordion>
     )
