@@ -95,7 +95,7 @@ body {
 }
 
 .jt-section {
-  margin: 10px 0px 0px 160px;
+  margin: 10px 0px 0px 170px;
   width: 650px;
 }
 
@@ -123,6 +123,25 @@ body {
 
 .carousel-inner > .carousel-item > img {
   margin: 0 auto;
+}
+
+.project-card {
+  margin-bottom: 45px;
+}
+
+.project-img {
+  margin: 8px 0px 11px 0px;
+  width: 500px;
+  height: 300px;
+  align-self: center;
+}
+
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
 }
 
 @keyframes App-logo-spin {
