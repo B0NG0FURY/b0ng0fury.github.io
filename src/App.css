@@ -45,7 +45,7 @@ body {
 }
 
 .sidebar-items {
-  margin-top: 150px;
+  margin-top: 120px;
 }
 
 .sidebar li {
@@ -63,6 +63,10 @@ body {
 
 .nav-btn:hover {
   cursor: pointer;
+}
+
+.nav-home {
+  margin: -40px 0px 0px 45px
 }
 
 .main {

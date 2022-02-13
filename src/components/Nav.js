@@ -4,6 +4,12 @@ class Nav extends Component {
     render() {
         return(
             <nav className="sidebar">
+                <button
+                    className="nav-btn nav-home"
+                    onClick={() => this.props.setActive("Welcome")}
+                >
+                    JT
+                </button>
                 <ul className="sidebar-items">
                     <li>
                         <button
