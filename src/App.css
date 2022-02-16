@@ -155,6 +155,26 @@ body {
   float: right;
 }
 
+.cv-container {
+  width: 700px;
+  height: auto;
+  margin: auto;
+  margin-top: 50px;
+  padding: 3%;
+  background-color: whitesmoke;
+}
+
+.section-title {
+  text-align: center;
+  border-bottom: 2px solid black;
+}
+
+#skills-list {
+  display: grid;
+  grid-template-columns: 240px 240px;
+  margin-left: 130px;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

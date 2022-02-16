@@ -28,7 +28,7 @@ export default function Cv() {
             </section>
             <section className="cv-section">
                 <h3 class="section-title">Technical Skills</h3>
-                <ul>
+                <ul id="skills-list">
                     <li>Javascript(ES6)</li>
                     <li>React</li>
                     <li>Redux</li>
