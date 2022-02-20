@@ -5,7 +5,7 @@ class Nav extends Component {
         return(
             <nav className="sidebar">
                 <button
-                    className="nav-btn nav-home"
+                    className="nav-btn nav-home font-effect-anaglyph font-effect-3d"
                     onClick={() => this.props.setActive("Welcome")}
                 >
                     JT

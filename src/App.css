@@ -66,7 +66,10 @@ body {
 }
 
 .nav-home {
-  margin: -40px 0px 0px 45px
+  margin: -40px 0px 0px 45px;
+  font-family: "Oswald";
+  font-size: 60px;
+  color: rgb(187, 8, 8);
 }
 
 .main {
