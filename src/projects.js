@@ -15,7 +15,7 @@ const projects = [
     },
     {
         name: "Beer Enthusiast",
-        about: "Beer Enthusiast is a full stack application built with Rails that allows the user to explore beers, find information about them, and read reviews from those who have tried them. The user can also rate beers and keep track of what they have liked and what they didn't. Application uses a MVC structure and also uses omniauth to allow sign in through Google.",
+        about: "Beer Enthusiast is a full stack application built with Rails that allows the user to explore beers, find information, and read reviews from those who have tried them. The user can also rate beers and keep track of what they have liked and what they didn't. Application uses a MVC structure and omniauth sign in capability with Google.",
         img: "/beer-enthusiast-main.png",
         demo: "https://drive.google.com/file/d/1_WXM-vchO-PS27p_vsi5p3eG6cxeZjjx/view",
         github: "https://github.com/B0NG0FURY/beer_enthusiast"

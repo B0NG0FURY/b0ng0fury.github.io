@@ -17,7 +17,7 @@ export default function Interests() {
                 <Carousel.Caption>
                     <h5>Movies</h5>
                     <p>
-                        I enjoy watching movies new and old. I have amassed quite the collection over the years. Again, I have a problem.
+                        I enjoy watching movies new and old. I have amassed quite the collection over the years. Again, yes I have a problem.
                     </p>
                 </Carousel.Caption>
             </Carousel.Item>

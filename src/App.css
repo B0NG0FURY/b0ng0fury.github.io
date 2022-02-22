@@ -90,6 +90,7 @@ body {
 #self-img {
   width: 160px;
   height: 160px;
+  border-radius: 45%;
 }
 
 .code-icons {
@@ -118,6 +119,10 @@ body {
   max-width: 650px;
   overflow-y: auto;
   background-color: #282c34;
+}
+
+.about-card p {
+  font-size: 20px;
 }
 
 #about-title {
