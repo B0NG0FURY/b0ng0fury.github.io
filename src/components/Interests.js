@@ -4,7 +4,9 @@ export default function Interests() {
     return (
         <Carousel interval="10000" className="interest-slides">
             <Carousel.Item>
-                <img className="d-block w-100" alt="Music" src="http://placehold.it/600x400"/>
+                <div className="slide-img-container">
+                    <img className="d-block w-100" alt="Music" src="http://placehold.it/600x400"/>
+                </div>
                 <Carousel.Caption>
                     <h5>Music</h5>
                     <p>
@@ -13,7 +15,9 @@ export default function Interests() {
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
-                <img className="d-block w-100" alt="Movies" src="http://placehold.it/600x400"/>
+                <div className="slide-img-container">
+                    <img className="d-block w-100" alt="Movies" src="http://placehold.it/600x400"/>
+                </div>
                 <Carousel.Caption>
                     <h5>Movies</h5>
                     <p>
@@ -22,7 +26,9 @@ export default function Interests() {
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
-                <img className="d-block w-100" alt="Onewheel" src="http://placehold.it/600x400"/>
+                <div className="slide-img-container">
+                    <img className="d-block w-100" alt="Onewheel" src="http://placehold.it/600x400"/>
+                </div>
                 <Carousel.Caption>
                     <h5>Onewheel</h5>
                     <p>
@@ -31,7 +37,9 @@ export default function Interests() {
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
-                <img className="d-block w-100" alt="Travel" src="http://placehold.it/600x400"/>
+                <div class="slide-img-container">
+                    <img className="d-block w-100" alt="Travel" src="/travel-disney.jpg" width="200" height="450"/>
+                </div>
                 <Carousel.Caption>
                     <h5>Travel</h5>
                     <p>
@@ -40,7 +48,9 @@ export default function Interests() {
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
-                <img className="d-block w-100" alt="Video Games" src="http://placehold.it/600x400"/>
+                <div className="slide-img-container">
+                    <img className="d-block w-100" alt="Video Games" src="http://placehold.it/600x400"/>
+                </div>
                 <Carousel.Caption>
                     <h5>Video Games</h5>
                     <p>

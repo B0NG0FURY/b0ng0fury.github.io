@@ -69,7 +69,8 @@ body {
   margin: -40px 0px 0px 45px;
   font-family: "Oswald";
   font-size: 60px;
-  color: rgb(187, 8, 8);
+  color: black;
+  text-shadow: 3px 3px rgb(187, 8, 8)
 }
 
 .main {
@@ -131,8 +132,15 @@ body {
 }
 
 .interest-slides {
-  margin-top: 20px;
+  margin-top: 10px;
   max-height: 450px;
+  text-shadow: 1px 1px black;
+}
+
+.slide-img-container {
+  width: 500px;
+  height: 450px;
+  margin: auto;
 }
 
 /* .carousel-img {
