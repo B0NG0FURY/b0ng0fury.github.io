@@ -45,7 +45,7 @@ body {
 }
 
 .sidebar-items {
-  margin-top: 120px;
+  margin-top: 80px;
 }
 
 .sidebar li {
@@ -57,6 +57,7 @@ body {
   border: none;
   background-color: #1b1d22;
   font-size:40px;
+  font-family: "Oswald", sans-serif;
   color: whitesmoke;
   padding: 5px 10px;
 }
@@ -66,9 +67,9 @@ body {
 }
 
 .nav-home {
-  margin: -40px 0px 0px 45px;
-  font-family: "Oswald";
-  font-size: 60px;
+  margin: -70px 0px 0px 55px;
+  font-family: "Praise";
+  font-size: 100px;
   color: black;
   text-shadow: 3px 3px rgb(187, 8, 8)
 }
