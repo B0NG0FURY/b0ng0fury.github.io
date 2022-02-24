@@ -42,6 +42,7 @@ body {
   left: 0;
   padding-top: 60px;
   overflow-x: hidden;
+  border-right: 2px solid black;
 }
 
 .sidebar-items {
@@ -50,7 +51,7 @@ body {
 
 .sidebar li {
   list-style-type: none;
-  margin: 5px 0px 15px 5px;
+  margin: 5px 0px 15px 10px;
 }
 
 .nav-btn {
@@ -58,6 +59,7 @@ body {
   background-color: #1b1d22;
   font-size:40px;
   font-family: "Oswald", sans-serif;
+  text-shadow: 2px 2px black;
   color: whitesmoke;
   padding: 5px 10px;
 }
@@ -84,20 +86,28 @@ body {
 
 .welcome {
   padding-left: 28%;
-  margin-top: 50px;
+  margin-top: 90px;
   color: whitesmoke;
   font-size: 30px;
+  text-shadow: 2px 2px black; 
+}
+
+.welcome h1 p {
+  margin-top: 15px;
 }
 
 #self-img {
   width: 160px;
   height: 160px;
   border-radius: 45%;
+  border: 3px solid black;
+  margin-bottom: 25px;
 }
 
 .code-icons {
   display: flex;
   flex-direction: row;
+  margin-top: 25px;
 }
 
 .code-icons img {
