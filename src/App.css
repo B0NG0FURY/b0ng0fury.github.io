@@ -126,6 +126,10 @@ body {
   width: 650px;
 }
 
+.history-pic {
+  margin: 5px 0px 15px 150px;
+}
+
 .about-card {
   max-height: 440px;
   max-width: 650px;

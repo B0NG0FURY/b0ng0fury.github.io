@@ -9,6 +9,7 @@ export default function History() {
                     <p>
                         I'm 36 years old and grew up in the greater Chicago region of northwest Indiana (where we are known as "region rats") and is where I still reside today. I'm married to a wonderful lady and incredibly creative artist. Together we have 2 children.
                     </p>
+                    <img class="history-pic" src="/family-pic.jpg" width="200" height="300"/>
                     <p>
                         I've been interested in technology from an early age. The advancements in functionality of computers, televisions, phones, and gaming consoles have fascinated and amazed me in their utility and now necessity in everyday life. This probably explains my compulsion to always want the newest gadgets. At least that's how I try to justify the expenses to my wife.
                     </p>

@@ -27,7 +27,7 @@ export default function Interests() {
             </Carousel.Item>
             <Carousel.Item>
                 <div className="slide-img-container">
-                    <img className="d-block w-100" alt="Onewheel" src="http://placehold.it/600x400"/>
+                    <img className="d-block w-100" alt="Onewheel" src="/onewheel-self1.jpg"/>
                 </div>
                 <Carousel.Caption>
                     <h5>Onewheel</h5>
