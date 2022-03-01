@@ -5,7 +5,7 @@ export default function History() {
         <Card style={{color: 'whitesmoke', width: '50rem'}} className="about-card">
         <Card.Body>
             <Card.Text>
-                <article>
+                <article id="history">
                     <p>
                         I'm 36 years old and grew up in the greater Chicago region of northwest Indiana (where we are known as "region rats") and is where I still reside today. I'm married to a wonderful lady and incredibly creative artist. Together we have 2 children.
                     </p>

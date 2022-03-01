@@ -86,10 +86,15 @@ body {
 
 .welcome {
   padding-left: 28%;
-  margin-top: 90px;
+  margin-top: 70px;
   color: whitesmoke;
-  font-size: 30px;
+  font-family: 'League Gothic', sans-serif;
+  font-size: 60px;
   text-shadow: 2px 2px black; 
+}
+
+.welcome h1 {
+  font-size: 60px;
 }
 
 .welcome h1 p {
@@ -119,11 +124,17 @@ body {
 .info-header {
   color: whitesmoke;
   margin: 0px 0px 20px 160px;
+  font-family: 'League Gothic', sans-serif;
+  font-size: 50px;
 }
 
 .jt-section {
   margin: 10px 0px 0px 170px;
   width: 650px;
+}
+
+#history {
+  font-family: 'Roboto', sans-serif;
 }
 
 .history-pic {
