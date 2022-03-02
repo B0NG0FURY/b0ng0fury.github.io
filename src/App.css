@@ -73,7 +73,7 @@ body {
   font-family: "Praise";
   font-size: 100px;
   color: black;
-  text-shadow: 3px 3px rgb(187, 8, 8)
+  text-shadow: 3px 3px rgb(187, 8, 8);
 }
 
 .main {
@@ -126,6 +126,7 @@ body {
   margin: 0px 0px 20px 190px;
   font-family: 'League Gothic', sans-serif;
   font-size: 50px;
+  text-shadow: 2px 2px black;
 }
 
 .jt-section {
@@ -146,7 +147,8 @@ body {
   max-width: 700px;
   overflow-y: auto;
   margin: auto;
-  background-color: #282c34;
+  margin-top: -13px;
+  background-color: #1b1d22;
 }
 
 .about-card p {
