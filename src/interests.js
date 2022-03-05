@@ -2,12 +2,12 @@ const interests = [
     {
         title: "Music",
         text: "I love listening to music and have spent 14 years collecting vinyl. Yes, I have a problem.",
-        img: "http://placehold.it/600x400"
+        img: "/records.jpg"
     },
     {
         title: "Movies",
         text: "I enjoy watching movies new and old. I have amassed quite the collection over the years. Again, yes I have a problem.",
-        img: "http://placehold.it/600x400"
+        img: "/movies.jpg"
     },
     {
         title: "Onewheel",
