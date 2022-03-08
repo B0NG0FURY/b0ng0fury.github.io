@@ -11,7 +11,7 @@ const interests = [
     },
     {
         title: "Onewheel",
-        text: "I started riding a Onewheel as a way to get outside and move around town without a car. It's fun and a great way to clear my head and enjoy the outdoors.",
+        text: "A fun way to get around town without a car. I like to ride, clear my head, and enjoy the outdoors.",
         img: "/onewheel-self1.jpg"
     },
     {
@@ -22,7 +22,7 @@ const interests = [
     {
         title: "Video Games",
         text: "I've been an avid gamer since grade school. Some things never change!",
-        img: "http://placehold.it/600x400"
+        img: "/video-games.jpg"
     }
 ]
 
