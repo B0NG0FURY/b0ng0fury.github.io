@@ -26,6 +26,13 @@ const projects = [
         img: "/movie-app.png",
         demo: "https://drive.google.com/file/d/1M-Ise8Qp_8wf_oFlV09f08J7QGhYOmcN/view?usp=sharing",
         github: "https://github.com/B0NG0FURY/movie_collection"
+    },
+    {
+        name: "Upcoming Releases",
+        about: "CLI Ruby gem that shows information on impending indy music releases. The gem uses nokogiri to scrape information from Midheaven Mailorder and implements it into an object-oriented structure. Information about a certain release can be viewed showing price, formats, release date, and a description of the album.",
+        img: "/music-release-app.png",
+        demo: "https://drive.google.com/file/d/1oV3fz5pg28LsMcbeE5wa9QOjibFGYP95/view?usp=sharing",
+        github: "https://github.com/B0NG0FURY/upcoming_releases"
     }
 ];
 
