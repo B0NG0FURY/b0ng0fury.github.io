@@ -146,6 +146,12 @@ body {
   margin: 5px 0px 15px 215px;
 }
 
+#coding-books {
+  max-width: 400px;
+  max-height: 250px;
+  margin: 5px 0px 20px 120px;
+}
+
 .about-card {
   max-height: 440px;
   max-width: 700px;
@@ -269,6 +275,31 @@ body {
   .code-icons img{
     width: 10%;
     height: 15%;
+  }
+
+  .jt-section {
+    margin: 135px 0px 0px -50px;
+    width: 90%;
+    height: auto;
+  }
+
+  .info-header {
+    margin: auto;
+  }
+
+  .about-card {
+    max-height: 650px;
+    max-width: 350px;
+  }
+
+  .history-pic {
+    margin: auto;
+  }
+
+  #coding-books {
+    width: 300px;
+    height: 150px;
+    margin: auto;
   }
 
 }

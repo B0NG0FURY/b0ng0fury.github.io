@@ -22,12 +22,10 @@ export default function History() {
                         One day while in the middle of doing some online banking I started thinking about how much web applications have become an increasingly important part of everyday life. Banking, education, ordering food, buying concert tickets... these were all things that relied on coded applications to make people's lives easier and with smartphones could be accomplished just about anywhere. My inherent interest in technology along with an insatiable curiosity guided me to learn how these programs worked. I started watching videos online and picked up the Head First Javascript book. I went through the book cover to cover and was immediately captivated. I wanted to learn as much as I could as it was a perfect marriage of my interest in technology and problem solving skills I had honed in my time as an industrial electrician.
                     </p>
                     <img 
-                        class="history-pic" 
+                        class="history-pic"
+                        id="coding-books" 
                         src={codingBooks} 
-                        alt="Coding Books" 
-                        width="400" 
-                        height="250"
-                        style={{"margin": "5px 0px 20px 120px" }}
+                        alt="Coding Books"
                     />
                     <p>
                         While I tried learning as much as I could on my own, I admitted to myself that I would benefit from a more structured approach since I was simultaneously working full time and raising a family. This led me to Flatiron School where I completed the full stack software engineering program. I've found what I want to do for a career and am currently pursuing making that dream a reality.
