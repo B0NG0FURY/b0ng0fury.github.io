@@ -1,6 +1,6 @@
 export default function Cv() {
     return (
-        <article className="cv-container" style={{marginTop: 15, marginBottom: 15}}>
+        <article className="cv-container">
             <section className="cv-section">
                 <p id="cv-links">
                     <a
