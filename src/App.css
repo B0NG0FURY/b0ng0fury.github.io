@@ -187,11 +187,6 @@ body {
   height: 440px;
 }
 
-/* .carousel-img {
-  width: 200px;
-  height: 200px;
-} */
-
 .carousel-inner > .carousel-item > img {
   margin: 0 auto;
 }
@@ -300,6 +295,21 @@ body {
     width: 300px;
     height: 150px;
     margin: auto;
+  }
+
+  .slide-img-container {
+    max-width: 350px;
+    max-height: 550px;
+  }
+
+  .project-card {
+    margin-left: 0px;
+    width: 350px;
+  }
+
+  .project-img {
+    max-width: 330px;
+    max-height: 200px;
   }
 
 }
