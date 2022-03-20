@@ -283,8 +283,8 @@ body {
     margin: auto;
   }
 
-  .tabs {
-    
+  ul.mb-3 {
+    width: 350px;
   }
 
   .about-card {
@@ -309,7 +309,7 @@ body {
 
   .slide-img-container {
     max-width: 350px;
-    max-height: 550px;
+    height: 630px;
   }
 
   .project-card {
