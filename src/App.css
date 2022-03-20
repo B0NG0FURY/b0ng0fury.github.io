@@ -283,6 +283,10 @@ body {
     margin: auto;
   }
 
+  .tabs {
+    
+  }
+
   .about-card {
     max-height: 650px;
     max-width: 350px;
@@ -296,6 +300,11 @@ body {
     width: 300px;
     height: 150px;
     margin: auto;
+  }
+
+  .carousel {
+    height: 650px;
+    width: 350px;
   }
 
   .slide-img-container {

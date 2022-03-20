@@ -11,7 +11,7 @@ const interests = [
     },
     {
         title: "Onewheel",
-        text: "A fun way to get around town without a car. I like to ride, clear my head, and enjoy the outdoors.",
+        text: "A fun way to get around. I like to ride, clear my head, and enjoy the outdoors.",
         img: "/onewheel-self1.jpg"
     },
     {
