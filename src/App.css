@@ -29,14 +29,14 @@
 }
 
 body {
-  background-color: #333842;
+  background-color: black;
 }
 
 .sidebar {
   height: 100%;
   width: 250px;
   position: fixed;
-  background-color: #22252b;
+  background-color: #333842;
   z-index: 1;
   top: 0;
   left: 0;
@@ -56,7 +56,7 @@ body {
 
 .nav-btn {
   border: none;
-  background-color: #22252b;
+  background-color: #333842;
   font-size:40px;
   font-family: "Oswald", sans-serif;
   text-shadow: 2px 2px black;
