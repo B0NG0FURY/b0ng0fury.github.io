@@ -42,7 +42,6 @@ body {
   left: 0;
   padding-top: 60px;
   overflow-x: hidden;
-  border-right: 2px solid black;
 }
 
 .sidebar-items {
@@ -210,6 +209,16 @@ body {
   float: right;
 }
 
+.project-link {
+  margin-bottom: 8px;
+}
+
+.project-link:hover {
+  cursor: pointer;
+  background-color: darkgrey;
+  color: blue;
+}
+
 .cv-container {
   width: 700px;
   height: auto;
@@ -236,7 +245,6 @@ body {
     width: 100%;
     height: 110px;
     border-right: none;
-    border-bottom: 2px solid black;
     overflow-y: hidden;
   }
 

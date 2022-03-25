@@ -19,7 +19,7 @@ export default function Project(props) {
                                         target="_blank"
                                         rel="noopener noreferrer"
                                     >
-                                        Demo Video
+                                        <button className="project-link">Demo Video</button>
                                     </a>
                                     <a 
                                         className="float-right"
@@ -27,7 +27,7 @@ export default function Project(props) {
                                         target="_blank"
                                         rel="noopener noreferrer"
                                     >
-                                        Github
+                                        <button className="project-link">Github</button>
                                     </a>
                                 </section>
                             </Card.Text>
