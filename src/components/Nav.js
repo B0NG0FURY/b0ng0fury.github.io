@@ -11,7 +11,7 @@ class Nav extends Component {
                     JT
                 </button>
                 <ul className="sidebar-items">
-                    <li>
+                    <li key="about">
                         <button
                             style={this.props.active === "About" ? {textDecoration: 'underline'} : null}
                             className="nav-btn" 
@@ -20,7 +20,7 @@ class Nav extends Component {
                             About
                         </button>
                     </li>
-                    <li>
+                    <li key="portfolio">
                         <button
                             style={this.props.active === "Portfolio" ? {textDecoration: 'underline'} : null} 
                             className="nav-btn" 
@@ -29,7 +29,7 @@ class Nav extends Component {
                             Portfolio
                         </button>
                     </li>
-                    <li>
+                    <li key="cv">
                         <button
                             style={this.props.active === "CV" ? {textDecoration: 'underline'} : null}
                             className="nav-btn" 

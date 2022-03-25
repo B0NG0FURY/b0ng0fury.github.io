@@ -6,7 +6,12 @@ export default function Project(props) {
         <Accordion>
                 <Card className="project-card">
                     <Card.Header>{props.project.name}</Card.Header>
-                    <Card.Img  className="project-img" variant="top" src={props.project.img}/>
+                    <Card.Img  
+                        className="project-img" 
+                        variant="top" 
+                        src={props.project.img} 
+                        alt={`${props.project.name} Project Image`}
+                    />
                     <Accordion.Header>Info</Accordion.Header>
                     <Accordion.Body>
                         <Card.Body>

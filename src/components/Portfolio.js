@@ -6,7 +6,7 @@ class Portfolio extends Component {
     render() {
         return (
             <section className="jt-section">
-                {projects.map(project => <Project project={project} />)}
+                {projects.map(project => <Project project={project} key={project.name} />)}
             </section>
         )
     }
