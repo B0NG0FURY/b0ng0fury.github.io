@@ -116,15 +116,15 @@ body {
 
 .info-header {
   color: whitesmoke;
-  margin: 0px 0px 20px 190px;
+  margin: 0px 0px 20px 215px;
   font-family: 'League Gothic', sans-serif;
   font-size: 50px;
   text-shadow: 2px 2px black;
 }
 
 .jt-section {
-  margin: 10px 0px 0px 170px;
-  width: 650px;
+  margin: 10px 0px 0px 145px;
+  width: 750px;
 }
 
 .about-tab {
@@ -147,7 +147,7 @@ body {
 
 .about-card {
   max-height: 440px;
-  max-width: 700px;
+  max-width: 750px;
   overflow-y: auto;
   margin: auto;
   margin-top: -13px;
