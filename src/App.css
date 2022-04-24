@@ -59,6 +59,7 @@ body {
 
 .nav-btn:hover {
   cursor: pointer;
+  color: rgb(187, 8 , 8);
 }
 
 .nav-home {
@@ -67,6 +68,10 @@ body {
   font-size: 100px;
   color: black;
   text-shadow: 3px 3px rgb(187, 8, 8);
+}
+
+.nav-home:hover {
+  color: midnightblue;
 }
 
 .main {
